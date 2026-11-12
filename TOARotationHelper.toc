@@ -1,0 +1,23 @@
+## Interface: 16001
+## AllowLoadGameType: forever
+## Title: TOA Rotation Helper
+## Notes: Hekili-style rotation helper for WoW Forever: next spell, spells ahead, keybinds and cooldowns.
+## Author: Tor
+## Version: 0.6.0
+## IconTexture: Interface\Icons\Spell_Holy_PowerWordShield
+## SavedVariables: TOARotationHelperDB
+## AddonCompartmentFunc: TOARotationHelper_OnAddonCompartmentClick
+## Category: Combat
+
+Locales\enUS.lua
+Util.lua
+Core.lua
+Data\Priest.lua
+Modules\Rotation.lua
+Rotations\Priest.lua
+Modules\Keybinds.lua
+Modules\Tracker.lua
+Modules\Engine.lua
+Modules\Export.lua
+UI\Display.lua
+UI\Options.lua
